@@ -2,7 +2,6 @@ import streamlit as st
 from langchain.prompts import PromptTemplate
 from langchain.llms import CTransformers
 
-#function to get response from llama model
 
 def getLLamaresponse(input_text,no_words,blog_style):
     ###llama 2 model
